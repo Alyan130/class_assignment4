@@ -1,6 +1,5 @@
-"use client";  // Add this to mark the component as a Client Component
+"use client";
 
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./component/header";
@@ -23,27 +22,23 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   // Initialize AOS on the client side
   useEffect(() => {
     AOS.init({
-      duration: 1000,        // Animation duration in ms
-      easing: 'ease-in-out', // Easing function
-      once: true,            // Trigger animation only once
+      duration: 1000,        
+      easing: 'ease-in-out', 
+      once: true,          
     });
   }, []);
 
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
         {children}
         <Footer />
