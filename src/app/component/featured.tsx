@@ -10,10 +10,10 @@ import Link from "next/link";
 export default function Featured() {
   return (
     <section className="bg-gray-200 py-[60px] flex items-center flex-col w-full"> 
-      <h1 className="text-center text-[24px] font-bold text-gray-700 mb-1">FEATURED BLOGS</h1>
+      <h1 className="text-center text-[25px] font-bold text-gray-700 mb-1">FEATURED BLOGS</h1>
       <h2 className="text-center text-[28px] font-bold text-gray-700">Most recent blogs can be shown</h2>
 
-      <div className="w-[100%] p-[15px] flex items-center justify-evenly flex-wrap gap-7 py-[40px]">
+      <div className="w-[100%] p-[15px] flex items-center justify-evenly flex-wrap gap-8 py-[40px]">
 
         <div data-aos="zoom-in" className="shadow-lg w-[370px] p-[12px] bg-white flex flex-col items-center rounded-[10px]"> 
           <Image src={pic1} alt="pic1" className="w-[350px] h-[210px] rounded-[8px]" />

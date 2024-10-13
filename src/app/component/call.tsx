@@ -9,7 +9,7 @@ export default function Cta(){
       <p className="text-white text-[16px] leading-[30px] mb-6">Whether you’re planning a weekend getaway, a dream vacation, or a cross-country expedition, we’re here to help you every step of the way. Reach out to our travel experts for personalized recommendations, travel tips, or any questions you may have.</p>
       <Link href={"/contact"}><button className="w-[170px] border-2 border-white p-3 rounded-[25px] text-white hover:bg-blue-900">Contact now</button></Link>
       </div>
-      <div className="md:py-10 xs:py-10">
+      <div className="py-12 mr-2 md:py-10 md:mr-0">
      <Image src={pic} alt="" className="w-[550px]"></Image>
       </div>
     </section>

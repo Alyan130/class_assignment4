@@ -11,14 +11,14 @@ import { BiMessageDetail } from "react-icons/bi";
 
 export default function ShowBlogs() {
   return (
-    <section className="bg-gray-100 w-full py-20">
+    <section className="bg-gray-100 py-20 w-full">
       <div className="pt-5 md:py-20 ml-32 mb-16">
         <h2 className="text-[38px] font-bold mb-5 ">TRAVEL</h2>
         <p className="text-[20px] ml-[-70px] md:ml-0">
           <i>&quot;Traveling – it leaves you speechless, then turns you into a storyteller.&quot;</i>
         </p>
       </div>
-      <div className="flex flex-col items-center flex-wrap gap-12 px-4">
+      <div className="flex flex-col items-center flex-wrap gap-14 md:gap-12 px-4">
         <div data-aos="fade-right" className="flex flex-col justify-evenly flex-wrap p-2 rounded-[5px] md:ml-0">
           <Image
             src={pic1}
