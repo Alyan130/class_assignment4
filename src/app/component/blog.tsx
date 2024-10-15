@@ -68,7 +68,7 @@ export default function ShowBlogs() {
               &quot;Urban Adventures: 48 Hours in Tokyo&quot;
             </h3>
             <p className="text-[14px] md:text-[16px] mt-4 leading-[25px]">
-            Tokyo is a city that never sleeps, and neither will you as you embark on a whirlwind 48-hour adventure through Japan's bustling capital
+            Tokyo is a city that never sleeps, and neither will you as you embark on a whirlwind 48-hour adventure through Japan bustling capital
               <br />
               <Link href={"/blogs/post2"} className="hover:text-blue-800 text-blue-600">
                 Continue reading...
@@ -127,7 +127,7 @@ export default function ShowBlogs() {
           />
           <div className="p-5">
             <h3 className="text-[18px] md:text-[22px] font-bold mt-3 text-left">
-              &quot;Savoring the World: A Foodie’s Guide to Southeast Asia&quot;
+              &quot;Savoring the World: A Foodie Guide to Southeast Asia&quot;
             </h3>
             <p className="text-[14px] md:text-[16px] mt-4 leading-[25px]">
             If you believe that the best way to experience a culture is through its food, then this blog is for you. Southeast Asia is a melting pot of flavors
