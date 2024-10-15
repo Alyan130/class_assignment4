@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pic5 from "@/app/public/5.jpeg";
+import pic2 from "@/app/public/2.jpeg";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { BiMessageDetail } from "react-icons/bi";
 
@@ -7,19 +7,19 @@ export default function Post5() {
     return (
         <div className="flex flex-col items-center justify-center py-10 md:py-20 rounded-[5px] w-full">
             <Image
-                src={pic5}
-                alt="pic5"
-                className="w-[400px] md:w-[1000px] md:h-[600px] h-[320px] object-cover rounded-t-[5px]"
+                src={pic2}
+                alt="pic2"
+                className="w-[400px] md:w-[1000px] md:h-[600px] h-[320px] object-cover"
             />
             <div className="w-full sm:w-[90%] lg:w-[1000px] bg-white p-4 sm:pl-5 flex flex-col items-start">
                 <h3 className="text-[18px] sm:text-[22px] font-bold mt-6 text-left">
-                    &quot;Wanderlust Diaries: Exploring Hidden Gems in Europe&quot;
+                    &quot;Island Escapes: Discovering Paradise in the Pacifi&quot;
                 </h3>
                 <p className="text-[14px] sm:text-[16px] mt-4 leading-[22px] sm:leading-[27px]">
-                    Join us as we traverse the enchanting landscapes of Europe, uncovering hidden gems often overlooked by the average traveler. This blog takes you beyond the well-trodden tourist paths, introducing you to charming villages, stunning natural parks, and historical sites that tell rich stories of their past. Discover the quiet beauty of the Italian town of Matera, with its ancient cave dwellings, or the lesser-known vineyards of Portugal’s Douro Valley. We’ll provide insider tips on how to reach these destinations, what to do once you’re there, and the best times to visit to avoid the crowds. Perfect for wanderers seeking to deepen their travel experiences, this blog is a celebration of the lesser-known treasures of Europe, inspiring you to create your own adventures off the beaten path.
+                Picture a place where time slows down  and the only sound you hear is the gentle lapping of waves against pristine shores. Our Island Escapes blog is your ultimate guide to experiencing the tranquil beauty of the Pacific Islands. From the lush, volcanic landscapes of Samoa to the pearl-white beaches of Bora Bora, we’ll introduce you to islands that offer everything from exhilarating adventures to serene, secluded retreats. Learn how to dive with manta rays in Palau, hike through the untouched rainforests of Vanuatu, or simply relax in a beachfront bungalow in Tahiti. 
                 </p>
                 <p className="mt-4 text-[14px] sm:text-[16px] leading-[22px] sm:leading-[27px]">
-                    Step into a world of untold stories and untouched beauty as we uncover Europe’s best-kept secrets. While everyone else flocks to Paris, Rome, and Barcelona, we&apos;ll take you on a journey to places that don’t always make it to the guidebooks. Imagine wandering through the cobbled streets of Hallstatt, Austria, a quaint village mirrored perfectly on a serene lake, or strolling through the vibrant, flower-filled alleys of Colmar, France, where every turn feels like a step into a fairytale. Discover lesser-known attractions like the cliffside monasteries of Meteora in Greece, or the strikingly beautiful Plitvice Lakes in Croatia, where waterfalls cascade into turquoise waters. Each destination we feature comes with its own unique history, culture, and local flavor, offering an experience far richer than any standard itinerary could provide. Follow our tips for hidden trails, local eateries, and charming boutique hotels that promise to make your European adventure truly unforgettable.
+                Our guides also delve into local cultures, sharing insights on traditional dances, crafts, and cuisines, such as the Polynesian art of cooking with a stone oven. Whether you’re planning a honeymoon, a solo escape, or a family vacation, our Island Escapes blog will help you discover the best hidden gems, thrilling activities, and relaxing resorts, ensuring your getaway is nothing short of paradise.
                 </p>
                 <hr className="border-slate-400 w-full sm:w-[90%] lg:w-[850px] mt-5" />
                 <div className="flex flex-row items-center gap-2 mt-3">

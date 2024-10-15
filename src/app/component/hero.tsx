@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="text-white text-[30px] font-bold mb-5 md:text-[35px] md:leading-[42px]">TRAVEL BLOGS</h1>
         <p className="text-white text-[34px] leading-[46px] font-bold mb-[50px] md:text-[40px] md:leading-[58px] ">&quot;Discover the World with Our Travel Blogs&quot;</p>
         <Link href={"/blogs"}>
-          <button className="text-[18px] text-white w-[200px] p-3 rounded-[25px] border-2 border-blue-200 hover:bg-blue-900">Start your journey</button>
+          <button className="text-[18px] text-white w-[200px] p-3 rounded-[25px] bg-transparent hover:bg-blue-900 border-2 border-white">Start your journey</button>
         </Link>
       </div>
     </section>

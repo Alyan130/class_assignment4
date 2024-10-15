@@ -9,7 +9,7 @@ export default function Post1() {
             <Image
                 src={pic1}
                 alt="pic1"
-                className="w-[400px] md:w-[1000px] md:h-[600px] h-[320px] object-cover rounded-t-[5px]"
+                className="w-[400px] md:w-[1000px] md:h-[600px] h-[320px] object-cover"
             />
             <div className="w-full sm:w-[90%] lg:w-[1000px] bg-white p-4 sm:pl-5 flex flex-col items-start">
                 <h3 className="text-[18px] sm:text-[22px] font-bold mt-6 text-left">

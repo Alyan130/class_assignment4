@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pic2 from "@/app/public/2.jpeg";
+import pic4 from "@/app/public/4.jpeg";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { BiMessageDetail } from "react-icons/bi";
 
@@ -7,19 +7,19 @@ export default function Post2() {
     return (
         <div className="flex flex-col items-center justify-center py-10 md:py-20 rounded-[5px] w-full">
             <Image
-                src={pic2}
-                alt="pic2"
-                className="w-[400px] md:w-[1000px] md:h-[600px] h-[320px] object-cover rounded-t-[5px]"
+                src={pic4}
+                alt="pic4"
+                className="w-[400px] md:w-[1000px] md:h-[600px] h-[320px] object-cover"
             />
             <div className="w-full sm:w-[90%] lg:w-[1000px] bg-white p-4 sm:pl-5 flex flex-col items-start">
                 <h3 className="text-[18px] sm:text-[22px] font-bold mt-6 text-left">
-                    &quot;Wanderlust Diaries: Exploring Hidden Gems in Europe&quot;
+                    &quot;Urban Adventures: 48 Hours in Tokyo&quot;
                 </h3>
                 <p className="text-[14px] sm:text-[16px] mt-4 leading-[22px] sm:leading-[27px]">
-                    Join us as we traverse the enchanting landscapes of Europe, uncovering hidden gems often overlooked by the average traveler. This blog takes you beyond the well-trodden tourist paths, introducing you to charming villages, stunning natural parks, and historical sites that tell rich stories of their past. Discover the quiet beauty of the Italian town of Matera, with its ancient cave dwellings, or the lesser-known vineyards of Portugal&apos;s Douro Valley. We&apos;ll provide insider tips on how to reach these destinations, what to do once you&apos;re there, and the best times to visit to avoid the crowds. Perfect for wanderers seeking to deepen their travel experiences, this blog is a celebration of the lesser-known treasures of Europe, inspiring you to create your own adventures off the beaten path.
+                Tokyo is a city that never sleeps, and neither will you as you embark on a whirlwind 48-hour adventure through Japan’s bustling capital. In our Urban Adventures blog, we’ll show you how to make every moment count, even if your time is short. Start your morning with a visit to Tsukiji Market, where you can sample fresh sushi as it’s prepared before your eyes, then head to Asakusa to marvel at the historic Senso-ji Temple.
                 </p>
                 <p className="mt-4 text-[14px] sm:text-[16px] leading-[22px] sm:leading-[27px]">
-                    Step into a world of untold stories and untouched beauty as we uncover Europe&apos;s best-kept secrets. While everyone else flocks to Paris, Rome, and Barcelona, we&apos;ll take you on a journey to places that don&apos;t always make it to the guidebooks. Imagine wandering through the cobbled streets of Hallstatt, Austria, a quaint village mirrored perfectly on a serene lake, or strolling through the vibrant, flower-filled alleys of Colmar, France, where every turn feels like a step into a fairytale. Discover lesser-known attractions like the cliffside monasteries of Meteora in Greece, or the strikingly beautiful Plitvice Lakes in Croatia, where waterfalls cascade into turquoise waters. Each destination we feature comes with its own unique history, culture, and local flavor, offering an experience far richer than any standard itinerary could provide. Follow our tips for hidden trails, local eateries, and charming boutique hotels that promise to make your European adventure truly unforgettable.
+                We’ll guide you through the labyrinth of neon-lit streets in Akihabara, the mecca of anime and tech, before taking you to hidden rooftop bars that overlook the city’s glittering skyline. Discover the unique contrast of Tokyo, where futuristic skyscrapers coexist with tranquil gardens, and where you can sip matcha tea in a quiet teahouse one moment and dance the night away in a Shibuya nightclub the next. With our detailed itineraries, you’ll know exactly where to eat, shop, and explore, turning your brief stay into a rich, memorable experience.
                 </p>
                 <hr className="border-slate-400 w-full sm:w-[90%] lg:w-[850px] mt-5" />
                 <div className="flex flex-row items-center gap-2 mt-3">
